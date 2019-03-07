@@ -1,0 +1,76 @@
+#student {
+    background: white;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+}
+
+.avatar{
+    display: inline-block;
+    width: 25%;
+    min-height: 100%;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.avatar img {
+    height: 120px;
+    width: 120px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.info {
+    display: inline-block;
+    width: 50%;
+}
+
+.studentName {
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.details {
+    margin: 0 0 0 15px;
+}
+
+.grades {
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+
+.grades input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100px;
+}
+
+.grades input:focus{
+    outline: none;
+}
+
+
+.plus {
+    font-size: 72px;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.tag {
+    padding: 10px;
+    display: inline-block;
+    background: white;
+    color: black;
+    border: 1px solid white;
+}
